@@ -4,5 +4,4 @@
 /home/monagomaa/pixel_loader/src/main/java/app/config/FreeMarkerConfig.java
 /home/monagomaa/pixel_loader/src/main/java/app/models/PixelLoader.java
 /home/monagomaa/pixel_loader/src/main/java/app/controllers/PixelLoaderController.java
-/home/monagomaa/pixel_loader/src/main/java/app/services/GenericQuerySegmentService.java
 /home/monagomaa/pixel_loader/src/main/java/app/config/AppBootstrap.java
