@@ -9,6 +9,7 @@ Follow these simple steps to run this app:
 
 ```
 mvn db-migrator:create
+mvn db-migrator:migrate
 ```
 
 * Run the application

@@ -8,4 +8,5 @@ public class Constants {
   public static final  int DEFAULT_CURRENT = 1;
   public static final String PIXEL_A = "<p>Hi A</p>";
   public static final String PIXEL_B = "<p>Hi B</p>";
+  public static final int NUMBER_OF_SEQ = 10;
 }

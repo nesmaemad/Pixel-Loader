@@ -27,8 +27,8 @@ public class PixelLoaderController extends AppController {
         String currentSeqNumber = "seq" + getCurrent;
         String currentSeq = getInstance.getString(currentSeqNumber);
         String currentPixel = getInstance.getString(("pixel_" + currentSeq));
-
-        getCurrent = (getCurrent + 1 ) % 11;
+        // number of sequences base 1
+        getCurrent = (getCurrent + 1 ) % (Constants.NUMBER_OF_SEQ + 1);
         if(getCurrent == 0)
             getCurrent++;
         getInstance.set("current", getCurrent);
