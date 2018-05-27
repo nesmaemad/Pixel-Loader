@@ -4,6 +4,8 @@ package app.services;
  * Created by monagomaa on 12/01/18.
  */
 public class Constants {
-  private static final String R_FOLDER_PATH = "/home/monagomaa/customer_segmentation_project/src/main/R_project/";
-
+  public static final  String DEFAULT_SEQUANCE[] = {"a", "a", "b", "a", "b", "a", "b", "a", "b", "a"};
+  public static final  int DEFAULT_CURRENT = 1;
+  public static final String PIXEL_A = "<p>Hi A</p>";
+  public static final String PIXEL_B = "<p>Hi B</p>";
 }

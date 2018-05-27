@@ -16,7 +16,7 @@ limitations under the License.
 package app.config;
 
 
-import app.controllers.GenericQuerySegmentController;
+import app.controllers.PixelLoaderController;
 
 import org.javalite.activeweb.AbstractControllerConfig;
 import org.javalite.activeweb.AppContext;
@@ -32,7 +32,7 @@ public class AppControllerConfig extends AbstractControllerConfig {
     public void init(AppContext context) {
         addGlobalFilters(new TimingFilter());
         add(new DBConnectionFilter()).to(
-                                         GenericQuerySegmentController.class
+                                         PixelLoaderController.class
                                          );
     }
 }

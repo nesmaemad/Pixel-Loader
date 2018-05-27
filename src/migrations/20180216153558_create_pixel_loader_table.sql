@@ -1,0 +1,17 @@
+CREATE TABLE `pixel_loaders` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `pid` INT NOT NULL,
+  `pixel_a` LONGTEXT NULL,
+  `pixel_b` LONGTEXT NULL,
+  `seq1` VARCHAR(45) NULL,
+  `seq2` VARCHAR(45) NULL,
+  `seq3` VARCHAR(45) NULL,
+  `seq4` VARCHAR(45) NULL,
+  `seq5` VARCHAR(45) NULL,
+  `seq6` VARCHAR(45) NULL,
+  `seq7` VARCHAR(45) NULL,
+  `seq8` VARCHAR(45) NULL,
+  `seq9` VARCHAR(45) NULL,
+  `seq10` VARCHAR(45) NULL,
+  `current` INT NULL DEFAULT 1,
+  PRIMARY KEY (`id`));

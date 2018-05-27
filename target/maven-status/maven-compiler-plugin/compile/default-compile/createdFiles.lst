@@ -1,8 +1,8 @@
 app/config/DbConfig.class
 app/config/AppControllerConfig.class
 app/config/FreeMarkerConfig.class
-app/controllers/GenericQuerySegmentController.class
 app/services/GenericQuerySegmentService.class
-app/models/KSegmentModel.class
+app/models/PixelLoader.class
+app/controllers/PixelLoaderController.class
 app/services/Constants.class
 app/config/AppBootstrap.class
