@@ -1,7 +1,6 @@
 app/config/DbConfig.class
 app/config/AppControllerConfig.class
 app/config/RouteConfig.class
-app/services/GenericQuerySegmentService.class
 app/models/PixelLoader.class
 app/controllers/PixelLoaderController.class
 app/services/Constants.class
