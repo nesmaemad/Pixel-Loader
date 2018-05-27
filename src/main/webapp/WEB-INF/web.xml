@@ -3,6 +3,27 @@
 	 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
 
+    <display-name>activeweb</display-name>
 
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+
+    <filter>
+        <filter-name>dispatcher</filter-name>
+        <filter-class>org.javalite.activeweb.RequestDispatcher</filter-class>
+
+    </filter>
+
+
+    <filter-mapping>
+        <filter-name>dispatcher</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 
 </web-app>
