@@ -1,6 +1,5 @@
 app/config/DbConfig.class
 app/config/AppControllerConfig.class
-app/config/FreeMarkerConfig.class
 app/services/GenericQuerySegmentService.class
 app/models/PixelLoader.class
 app/controllers/PixelLoaderController.class
