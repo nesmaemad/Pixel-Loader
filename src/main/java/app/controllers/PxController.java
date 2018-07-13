@@ -35,7 +35,7 @@ public class PxController extends AppController {
         getInstance.saveIt();
         respond(currentPixel)
                 .header("Access-Control-Allow-Origin", "*" )
-                .header("Content-Type", "text/javascript")
+                .header("Content-Type", "application/javascript")
                 .status(200);
 
     }
