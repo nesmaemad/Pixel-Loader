@@ -1,7 +1,6 @@
 package app.config;
 
-import app.controllers.PixelLoaderController;
-import app.models.PixelLoader;
+import app.controllers.PxController;
 import org.javalite.activeweb.AbstractRouteConfig;
 import org.javalite.activeweb.AppContext;
 
@@ -10,7 +9,10 @@ import org.javalite.activeweb.AppContext;
  */
 public class RouteConfig extends AbstractRouteConfig {
     public void init(AppContext appContext) {
-        route("/{action}").to(PixelLoaderController.class);
+
+        //route("/{action}").to(PxController.class);
+        String a="px\\.js";
+        route("/px\\.js").to(PxController.class).action("index");
     }
 
 }

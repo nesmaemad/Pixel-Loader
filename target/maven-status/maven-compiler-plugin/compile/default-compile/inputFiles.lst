@@ -3,5 +3,5 @@
 /home/monagomaa/pixel_loader/src/main/java/app/services/Constants.java
 /home/monagomaa/pixel_loader/src/main/java/app/config/RouteConfig.java
 /home/monagomaa/pixel_loader/src/main/java/app/models/PixelLoader.java
-/home/monagomaa/pixel_loader/src/main/java/app/controllers/PixelLoaderController.java
+/home/monagomaa/pixel_loader/src/main/java/app/controllers/PxController.java
 /home/monagomaa/pixel_loader/src/main/java/app/config/AppBootstrap.java

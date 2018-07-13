@@ -7,9 +7,9 @@ import org.javalite.activeweb.AppController;
 /**
  * Created by monagomaa on 27/01/18.
  */
-public class PixelLoaderController extends AppController {
+public class PxController extends AppController {
 
-    public void px(){
+    public void index(){
         String pid = param("pid");
         PixelLoader pxModel = new PixelLoader();
 
